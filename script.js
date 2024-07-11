@@ -1,4 +1,4 @@
-const apiKey = '2b1d3a44bbf80f27d7212ce1b9859fdc';
+const apiKey = '';
 let map;
 let marker;
 let circle;

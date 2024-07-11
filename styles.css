@@ -3,7 +3,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #0f0f1f 0%, #1a1a2e 100%);
+    background: linear-gradient(135deg, #020617 0%, #0a1836 100%);
     color: #ffffff;
 }
 
@@ -15,16 +15,16 @@ body, html {
 
 #sidebar {
     width: 200px;
-    background: linear-gradient(180deg, #2a2a3c 0%, #1f1f2f 100%);
+    background: linear-gradient(180deg, #0a1836 0%, #061029 100%);
     padding: 10px;
     display: flex;
     flex-direction: column;
-    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    box-shadow: 2px 0 10px rgba(0,0,0,0.3);
 }
 
 #new-chat-btn {
-    background: linear-gradient(45deg, #50fa7b 0%, #40ca6b 100%);
-    color: #1a1a2e;
+    background: linear-gradient(45deg, #1e40af 0%, #15307f 100%);
+    color: #ffffff;
     border: none;
     padding: 12px;
     margin-bottom: 15px;
@@ -36,7 +36,7 @@ body, html {
 
 #new-chat-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(80,250,123,0.3);
+    box-shadow: 0 4px 8px rgba(30,64,175,0.3);
 }
 
 #chat-list {
@@ -47,15 +47,15 @@ body, html {
 .chat-item {
     padding: 12px;
     margin-bottom: 8px;
-    background: linear-gradient(45deg, #3a3a4e 0%, #2a2a3c 100%);
+    background: linear-gradient(45deg, #0c1f4a 0%, #081330 100%);
     cursor: pointer;
     border-radius: 6px;
     transition: all 0.3s ease;
 }
 
 .chat-item:hover {
-    background: linear-gradient(45deg, #50fa7b 0%, #40ca6b 100%);
-    color: #1a1a2e;
+    background: linear-gradient(45deg, #1e40af 0%, #15307f 100%);
+    color: #ffffff;
     transform: translateX(5px);
 }
 
@@ -71,43 +71,43 @@ body, html {
     height: 100%;
     display: flex;
     flex-direction: column;
-    border-right: 1px solid #3a3a4e;
-    background: linear-gradient(135deg, #2a2a3c 0%, #1f1f2f 100%);
+    border-right: 1px solid #0c1f4a;
+    background: linear-gradient(135deg, #061029 0%, #020617 100%);
 }
 
 #chat-messages {
     flex-grow: 1;
     overflow-y: auto;
     padding: 20px;
-    background: linear-gradient(135deg, #323248 0%, #2a2a3c 100%);
+    background: linear-gradient(135deg, #081330 0%, #061029 100%);
 }
 
 #user-input {
     display: flex;
     padding: 15px;
-    background: linear-gradient(180deg, #2a2a3c 0%, #1f1f2f 100%);
+    background: linear-gradient(180deg, #061029 0%, #020617 100%);
 }
 
 #user-input input {
     flex-grow: 1;
     padding: 12px;
-    border: 1px solid #3a3a4e;
+    border: 1px solid #0c1f4a;
     border-radius: 6px;
-    background: linear-gradient(135deg, #3a3a4e 0%, #323248 100%);
+    background: linear-gradient(135deg, #0c1f4a 0%, #081330 100%);
     color: #ffffff;
     transition: all 0.3s ease;
 }
 
 #user-input input:focus {
     outline: none;
-    border-color: #50fa7b;
-    box-shadow: 0 0 10px rgba(80,250,123,0.3);
+    border-color: #1e40af;
+    box-shadow: 0 0 10px rgba(30,64,175,0.3);
 }
 
 #user-input button {
     padding: 12px 24px;
-    background: linear-gradient(45deg, #50fa7b 0%, #40ca6b 100%);
-    color: #1a1a2e;
+    background: linear-gradient(45deg, #1e40af 0%, #15307f 100%);
+    color: #ffffff;
     border: none;
     border-radius: 6px;
     margin-left: 10px;
@@ -118,7 +118,7 @@ body, html {
 
 #user-input button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(80,250,123,0.3);
+    box-shadow: 0 4px 8px rgba(30,64,175,0.3);
 }
 
 #map-container {
@@ -139,14 +139,14 @@ body, html {
 }
 
 .user-message {
-    background: linear-gradient(45deg, #50fa7b 0%, #40ca6b 100%);
-    color: #1a1a2e;
+    background: linear-gradient(45deg, #1e40af 0%, #15307f 100%);
+    color: #ffffff;
     align-self: flex-end;
     margin-left: auto;
 }
 
 .bot-message {
-    background: linear-gradient(45deg, #3a3a4e 0%, #2a2a3c 100%);
+    background: linear-gradient(45deg, #0c1f4a 0%, #081330 100%);
     color: #ffffff;
 }
 
